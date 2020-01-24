@@ -1,0 +1,126 @@
+body {
+  background-color: #100e17;
+}
+
+.nav {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 800;
+  text-shadow: -5px -1px 7px rgba(0, 0, 0, 0.56);
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(214, 54, 149, 1) 0%,
+    rgba(198, 27, 79, 1) 0%,
+    rgba(255, 137, 1, 1) 100%
+  );
+  height: 90px;
+}
+
+.card {
+  text-align: center;
+  align-items: center;
+  background-color: #17141d;
+  min-width: 300px;
+  min-height: 350px;
+  padding: 1.5rem;
+  border-radius: 16px;
+  background: #17141d;
+  box-shadow: -1rem 0 3rem #000;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  margin: 0;
+  color: #7a7a8c;
+}
+.read-more-btn {
+  background-image: -webkit-gradient(
+    linear,
+    right bottom,
+    left top,
+    from(#ff8a00),
+    to(#e52e71)
+  );
+  background-image: linear-gradient(to top left, #ff8a00, #e52e71);
+  color: #fff !important;
+  display: inline-block;
+  font-family: inherit;
+  font-weight: 700;
+  border: 0;
+  border-radius: 2rem;
+  white-space: nowrap;
+  padding: 1rem 1.5rem;
+  line-height: 1.4;
+  text-align: center;
+  -webkit-transition: 0.07s;
+  transition: 0.07s;
+  position: relative;
+  text-decoration: none !important;
+}
+h1,
+h2,
+h3 {
+  color: #c2c2c2;
+}
+.logo {
+  width: 279px;
+  height: 68px;
+}
+.nav-link-padding {
+  padding: 33px !important;
+}
+.user-img {
+  border-radius: 50%;
+  height: auto;
+  width: fit-content;
+}
+body::-webkit-scrollbar {
+  width: 20px;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(to top left, #ff8a00, #e52e71);
+  outline: 1px solid slategrey;
+  border-radius: 10px;
+}
+.post-home-title {
+  background-color: #201c29;
+  padding: 1.5rem;
+  border-radius: 16px;
+}
+.card-footer {
+  background-color: transparent;
+}
+.user-img-profile {
+  height: 222px;
+  border-radius: 50%;
+  width: 42%;
+}
+.lead {
+  text-align: center;
+}
+.user-profile-details-div {
+  color: #7a7a8c;
+}
+.about-user {
+  text-align: left;
+  color: #7a7a8c;
+}
+.post-body {
+  color: #7a7a8c;
+  font-size: 20px;
+}
+p {
+  color: #7a7a8c;
+}
+.icon-foo {
+  font-style: normal;
+}
